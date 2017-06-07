@@ -1,0 +1,121 @@
+body {
+	background: url(../img/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+p {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+form {
+	text-align: left;
+
+}
+
+label {
+	margin-right: 4px;
+	font-weight: 300;
+	color: white;
+
+}
+
+input {
+	vertical-align: center;
+}
+
+
+
+#contentWrapper {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.topHeader {
+	margin-top: 15px;
+	border: 1px solid pink;
+	color: white;
+	background: rgba(39,21,61,0.3);
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.topHeader h1 {
+	color: white;
+	font-weight: 300;
+}
+
+.outline {
+	border: 1px solid pink;
+	color: black;
+	background: rgba(39,21,61,0.6);
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	font-size: 1em;
+}
+
+.outline p {
+	color: white;
+}
+
+.outline h1 {
+	color: white;
+	font-weight: 300;
+}
+
+.form-group {
+	margin: 20px 35px;
+	text-align: left;
+}
+
+.btn {
+	margin: 0 35px 20px 35px; 
+}
+
+.genderDiv {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#complete {
+	visibility: hidden;
+	color: white;
+}
+
+
+.completeInfo p {
+	margin: 20px 35px;
+	text-align: left;
+	font-weight: 300;
+	display: block;
+	font-size: 1.4em;
+}
+
+
+#results {
+	visibility: hidden;
+	color: white;
+	font-weight: 300
+}
+
+#results p {
+	color: white;
+}
+
+#continentSelector label {
+	margin-right: 10px;
+}
+
+#success {
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+

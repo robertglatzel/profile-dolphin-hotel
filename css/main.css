@@ -20,6 +20,12 @@ label {
 
 input {
 	vertical-align: center;
+	outline: none;
+}
+
+#submitButton,
+#confirmButton {
+	outline: none;
 }
 
 #contentWrapper {
@@ -39,6 +45,7 @@ input {
 .topHeader h1 {
 	color: white;
 	font-weight: 300;
+	font-size: 3.4em;
 }
 
 .outline {

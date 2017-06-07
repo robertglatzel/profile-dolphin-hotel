@@ -10,21 +10,17 @@ p {
 
 form {
 	text-align: left;
-
 }
 
 label {
 	margin-right: 4px;
 	font-weight: 300;
 	color: white;
-
 }
 
 input {
 	vertical-align: center;
 }
-
-
 
 #contentWrapper {
 	margin: 0 auto;
@@ -32,7 +28,7 @@ input {
 }
 
 .topHeader {
-	margin-top: 15px;
+	margin-top: 25px;
 	border: 1px solid pink;
 	color: white;
 	background: rgba(39,21,61,0.3);
@@ -52,7 +48,7 @@ input {
 	font-weight: 300;
 	letter-spacing: 1px;
 	margin-top: 15px;
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 .outline p {
@@ -79,10 +75,11 @@ input {
 }
 
 #complete {
-	visibility: hidden;
+	display: none;
 	color: white;
+	-webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
 }
-
 
 .completeInfo p {
 	margin: 20px 35px;
@@ -92,11 +89,12 @@ input {
 	font-size: 1.4em;
 }
 
-
 #results {
-	visibility: hidden;
+	display: none;
 	color: white;
-	font-weight: 300
+	font-weight: 300;
+	-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-delay: 2s;
 }
 
 #results p {
@@ -111,11 +109,21 @@ input {
 	visibility: hidden;
 }
 
+#confirmP {
+	font-size: 1em;
+	text-align: center;
+}
 
+.confirm {
+	padding: 5px;
+	text-align: left;
+}
 
-
-
-
-
-
-
+#thanksH1 {
+	color: white;
+	font-size: 9em;
+ 	font-weight: 300;
+    margin: 0 auto;
+    margin-top: 40vh;
+    text-shadow: 2px 2px black;
+}

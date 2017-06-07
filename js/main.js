@@ -109,7 +109,7 @@ function submitButton() {
 	};
 
 	if(userDrink == undefined){
-		alert("You haven't selected your continent!")
+		alert("You haven't selected your beverage!")
 		return;
 	}
 
@@ -119,8 +119,11 @@ function submitButton() {
 	document.getElementById("questions").style.display = "none"
 	document.getElementById("intro").style.display = "none"
 
-	document.getElementById("complete").style.visibility = "visible"
-	document.getElementById("results").style.visibility = "visible"
+	$('#complete').addClass('animated fadeIn');
+	$('#results').addClass('animated fadeInUp');
+
+	document.getElementById("complete").style.display = "initial"
+	document.getElementById("results").style.display = "initial"
 
 
 
@@ -143,6 +146,25 @@ function submitButton() {
 
 	var newDrink = document.getElementById("newUserDrink")
 	newDrink.textContent = "Beverage Preference: " + userDrink
+}
+
+var confirm = document.getElementById("confirmButton")
+confirm.addEventListener('click', confirmButton, false);
+
+
+
+function confirmButton() {
+	document.getElementById("complete").style.display = "none"
+	document.getElementById("results").style.display = "none"
+
+
+	var thanks = document.createElement("h1")
+	thanks.id = "thanksH1"
+	thanks.textContent = "Thank you!"
+	thanks.className = "col-lg-12"
+	document.getElementById("contentWrapper").appendChild(thanks)
+
+	$('#thanksH1').addClass('animated fadeInUpBig');
 }
 
 
